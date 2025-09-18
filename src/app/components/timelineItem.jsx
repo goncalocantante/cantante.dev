@@ -1,4 +1,10 @@
-const TimelineItem = ({ jobTitle, companyName, dates, jobDescription }) => {
+const TimelineItem = ({
+  jobTitle,
+  companyName,
+  dates,
+  jobDescription,
+  isLast,
+}) => {
   return (
     <div className="col-start-2 col-span-10 md:col-start-4 md:col-span-6 flex flex-col items-start pb-10 relative">
       {/* Vertical line */}
@@ -20,6 +26,9 @@ const TimelineItem = ({ jobTitle, companyName, dates, jobDescription }) => {
         {dates && <p className="font-light mt-2 text-sm">{dates}</p>}
         {jobDescription && <p className="font-normal mt-4">{jobDescription}</p>}
       </div>
+      {isLast && (
+        <div className="absolute -bottom-2 left-0.5 w-1 h-1 rounded-full bg-white -translate-y-1 "></div>
+      )}
     </div>
   );
 };
