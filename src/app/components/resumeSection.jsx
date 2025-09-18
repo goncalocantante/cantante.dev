@@ -7,10 +7,11 @@ const ResumeSection = () => {
         Resume
       </h2>
       <p className="col-start-2 col-span-10 md:col-start-4 md:col-span-6 text-body ">
-        Here&apos;s a snapshot of my work so far — from full-stack roles in
-        consulting and non-profits to personal projects and hackathons. I focus
-        on clean code, product impact, and learning fast. If you'd like the full
-        PDF version, feel free to reach out.
+        My background spans a Master&apos;s in Electrical & Computer Engineering
+        from Técnico Lisboa, hands-on freelance web projects, and 2+ years at
+        Deloitte as a Full Stack Developer. I recently completed a postgrad
+        focused on AI and large language models, and I&apos;m now combining
+        these skills to build practical digital solutions.
       </p>
       <Image
         src="/images/wavy-divider.svg"

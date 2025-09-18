@@ -14,18 +14,16 @@ const Hero = () => {
           </span>
           !
         </h1>
-        <div className="xl:pr-[128px] pb-[40px] flex flex-col gap-1">
+        <div className="xl:pr-[128px] pb-[40px] flex flex-col gap-4">
           <p>
-            I build scalable, user-focused web applications using modern JS
-            frameworks.
+            I help businesses and individuals bring ideas online — from quick
+            landing pages and WordPress sites to e-commerce platforms and custom
+            web apps.
           </p>
           <p>
-            Currently open to remote-first or hybrid teams building useful AI
-            tools — especially where I can learn fast and contribute hands-on.
-          </p>
-          <p>
-            This site is the first of many. I&apos;m sharing my progress
-            publicly as I pivot into the world of applied AI.
+            This site is part of my portfolio journey as I travel and explore
+            new opportunities. If you need help building your next digital
+            product, I&apos;m ready to start now.
           </p>
         </div>
         <Image
