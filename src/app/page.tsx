@@ -1,8 +1,8 @@
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Hero from "./components/hero";
+import CaseStudies from "./components/caseStudies";
 import Resume from "./components/resume";
-// import Contact from "./components/contact";
 
 export default function Home() {
   return (
@@ -11,8 +11,8 @@ export default function Home() {
       {/* Main vertical sections */}
       <main>
         <Hero />
+        <CaseStudies />
         <Resume />
-        {/* <Contact />        */}
       </main>
       <Footer />
     </div>

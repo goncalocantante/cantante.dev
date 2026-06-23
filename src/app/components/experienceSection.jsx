@@ -2,20 +2,27 @@ import TimelineItem from "./timelineItem";
 
 const timelineItems = [
   {
-    jobTitle: "Tech Consultant",
+    jobTitle: "Founder & Lead Engineer",
+    companyName: "EloClinico (Healthcare SaaS)",
+    dates: "Aug 2025 — Present",
+    jobDescription:
+      "Architected and built a secure, multi-tenant scheduling and clinic management SaaS. Implemented strict database-level schema isolation in PostgreSQL, Next.js dashboard UI, and integrated Stripe payments via webhook infrastructure to automate subscription billing.",
+  },
+  {
+    jobTitle: "Tech Consultant & Full Stack Developer",
     companyName: "Deloitte",
     dates: "May 2023 — Aug 2025",
     jobDescription:
-      "Full-stack development with React, Next.js, and Node.js to build performant, scalable web applications.",
+      "Engineered performant full-stack web applications using React, Next.js, Node.js, and TypeScript. Optimized complex workflows and state management for enterprise-scale clients, boosting system efficiency and data processing speeds.",
   },
   {
-    jobTitle: "LLMs - Generative AI for Engineers",
-    companyName: "Postgraduate Degree at Técnico+",
+    jobTitle: "Postgraduate in LLMs - Generative AI for Engineers",
+    companyName: "Técnico+ (Instituto Superior Técnico)",
     dates: "Mar 2025 — May 2025",
   },
   {
-    jobTitle: "Master´s in Electrical and Computer Engineering",
-    companyName: "Instituto Superior Técnico - ULisboa",
+    jobTitle: "Master's in Electrical and Computer Engineering",
+    companyName: "Instituto Superior Técnico (IST - ULisboa)",
     dates: "Sep 2017 — Jun 2023",
   },
 ];

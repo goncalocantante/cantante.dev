@@ -29,15 +29,15 @@
   .subheading {
     font-size: var(--text-2xl);
     font-weight: var(--font-weight-bold);
-    font-family: --var(--font-playfair);
-    color: --var(--color-white);
+    font-family: var(--font-playfair);
+    color: var(--color-white);
   }
 
   .text-body {
     font-size: var(--text-base);
     font-weight: var(--font-weight-normal);
-    font-family: --var(--font-body);
-    color: --var(--color-white);
+    font-family: var(--font-body);
+    color: var(--color-white);
   }
 }
 

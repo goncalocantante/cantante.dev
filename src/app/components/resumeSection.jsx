@@ -6,12 +6,9 @@ const ResumeSection = () => {
       <h2 className="col-start-2 col-span-10 md:col-start-4 md:col-span-6 subheading mb-6">
         Resume
       </h2>
-      <p className="col-start-2 col-span-10 md:col-start-4 md:col-span-6 text-body ">
+      <p className="col-start-2 col-span-10 md:col-start-4 md:col-span-6 text-body leading-relaxed">
         My background spans a Master&apos;s in Electrical & Computer Engineering
-        from Técnico Lisboa, hands-on freelance web projects, and 2+ years at
-        Deloitte as a Full Stack Developer. I recently completed a postgrad
-        focused on AI and large language models, and I&apos;m now combining
-        these skills to build practical digital solutions.
+        from Instituto Superior Técnico (Lisbon), 2+ years at Deloitte as a Full Stack Developer engineering scalable web applications, and architecting secure SaaS products. Having recently completed postgraduate specialization in Generative AI and LLMs, I combine deep engineering foundations with modern web technologies to build high-impact software solutions.
       </p>
       <Image
         src="/images/wavy-divider.svg"
