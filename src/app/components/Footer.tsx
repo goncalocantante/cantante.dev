@@ -11,13 +11,13 @@ const Footer = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link
+            <a
               href="/cv.pdf"
               download="Goncalo_Cantante_CV.pdf"
               className="px-6 py-3 rounded-lg bg-highlight text-black font-semibold text-center transition-all hover:bg-highlight/90 hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-highlight focus-visible:ring-offset-2 focus-visible:ring-offset-black"
             >
               Download CV (PDF)
-            </Link>
+            </a>
             <Link
               href="mailto:goncalo.cantante.jobs@gmail.com"
               className="px-6 py-3 rounded-lg border border-highlight/30 text-white font-semibold text-center transition-all hover:bg-highlight/10 hover:border-highlight/50 hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-highlight focus-visible:ring-offset-2 focus-visible:ring-offset-black"
