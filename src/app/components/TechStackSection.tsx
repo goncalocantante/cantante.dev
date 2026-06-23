@@ -14,59 +14,59 @@ const TechStackSection = () => {
       <div className="col-span-12 md:col-start-2 md:col-span-10 flex gap-4 md:gap-0 md:overflow-visible overflow-scroll md:justify-between">
         <Image
           src="/images/skillsLogos/next.svg"
-          alt="nextjs logo"
+          alt="Next.js"
           width={120}
           height={24}
           style={imageStyle}
-          className="hover:scale-116"
+          className="hover:scale-116 transition-transform"
         />
         <Image
           src="/images/skillsLogos/node.svg"
-          alt="node logo"
+          alt="Node.js"
           width={85}
           height={24}
           style={imageStyle}
-          className="hover:scale-116"
+          className="hover:scale-116 transition-transform"
         />
         <Image
           src="/images/skillsLogos/tailwindcss.svg"
-          alt="tailwindcss logo"
+          alt="Tailwind CSS"
           width={191}
           height={24}
           style={imageStyle}
-          className="hover:scale-116"
+          className="hover:scale-116 transition-transform"
         />
         <Image
           src="/images/skillsLogos/postgresql.svg"
-          alt="postgresql logo"
+          alt="PostgreSQL"
           width={128}
           height={24}
           style={imageStyle}
-          className="hover:scale-116"
+          className="hover:scale-116 transition-transform"
         />
         <Image
           src="/images/skillsLogos/express.svg"
-          alt="express logo"
+          alt="Express.js"
           width={41}
           height={24}
           style={imageStyle}
-          className="hover:scale-116"
+          className="hover:scale-116 transition-transform"
         />
         <Image
           src="/images/skillsLogos/knex.svg"
-          alt="knex logo"
+          alt="Knex.js"
           width={85}
           height={24}
           style={imageStyle}
-          className="hover:scale-116"
+          className="hover:scale-116 transition-transform"
         />
         <Image
           src="/images/skillsLogos/typescript.svg"
-          alt="typescript logo"
+          alt="TypeScript"
           width={114}
           height={24}
           style={imageStyle}
-          className="hover:scale-116"
+          className="hover:scale-116 transition-transform"
         />
       </div>
     </div>

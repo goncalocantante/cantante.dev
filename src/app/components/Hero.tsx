@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -27,43 +28,57 @@ const Hero = () => {
         </div>
         <Image
           src="/images/wavy-divider.svg"
-          width="160"
-          height="12"
-          alt="Wavy Line Section Divider"
+          width={160}
+          height={12}
+          alt=""
+          aria-hidden="true"
           className="pb-[56px]"
           priority={true}
+          style={{ width: "auto", height: "auto" }}
         />
         <div className="pb-[48px]">
           <h3 className="pb-[24px] font-bold font-playfair text-xl">Find Me On</h3>
           <div className="flex gap-[24px]">
-            <a href="https://github.com/goncalocantante" className="my-auto transition-transform hover:scale-110">
+            <Link
+              href="https://github.com/goncalocantante"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="my-auto rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-highlight focus-visible:ring-offset-2 focus-visible:ring-offset-black transition-transform hover:scale-110"
+              aria-label="GitHub Profile"
+            >
               <Image
                 src="/images/icons/github.svg"
-                width="20"
-                height="20"
+                width={20}
+                height={20}
                 alt="Github Logo"
               />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.linkedin.com/in/goncalo-cantante/"
-              className="my-auto transition-transform hover:scale-110"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="my-auto rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-highlight focus-visible:ring-offset-2 focus-visible:ring-offset-black transition-transform hover:scale-110"
+              aria-label="LinkedIn Profile"
             >
               <Image
                 src="/images/icons/linkedIn.svg"
-                width="20"
-                height="20"
+                width={20}
+                height={20}
                 alt="LinkedIn Logo"
               />
-            </a>
+            </Link>
           </div>
         </div>
         <div>
           <h3 className="pb-6 font-bold font-playfair text-xl">Contact</h3>
           <p className="text-body">
             You can reach me at{" "}
-            <a className="underline text-highlight hover:text-highlight/85 transition-colors" href="mailto:goncalo.cantante.jobs@gmail.com">
+            <Link
+              className="underline text-highlight hover:text-highlight/85 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-highlight focus-visible:ring-offset-2 focus-visible:ring-offset-black transition-colors"
+              href="mailto:goncalo.cantante.jobs@gmail.com"
+            >
               goncalo.cantante.jobs@gmail.com
-            </a>
+            </Link>
           </p>
         </div>
       </div>

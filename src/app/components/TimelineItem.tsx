@@ -1,10 +1,18 @@
+interface TimelineItemProps {
+  jobTitle?: string;
+  companyName?: string;
+  dates?: string;
+  jobDescription?: string;
+  isLast: boolean;
+}
+
 const TimelineItem = ({
   jobTitle,
   companyName,
   dates,
   jobDescription,
   isLast,
-}) => {
+}: TimelineItemProps) => {
   return (
     <div className="col-start-2 col-span-10 md:col-start-4 md:col-span-6 flex flex-col items-start pb-10 relative">
       {/* Vertical line */}
@@ -21,10 +29,10 @@ const TimelineItem = ({
           </h4>
         )}
         {companyName && (
-          <p className="font-normal underline mt-2">{companyName}</p>
+          <p className="font-semibold text-highlight/95 mt-2">{companyName}</p>
         )}
-        {dates && <p className="font-light mt-2 text-sm">{dates}</p>}
-        {jobDescription && <p className="font-normal mt-4">{jobDescription}</p>}
+        {dates && <p className="font-light mt-2 text-sm text-white/70">{dates}</p>}
+        {jobDescription && <p className="font-normal mt-4 text-white/80 leading-relaxed">{jobDescription}</p>}
       </div>
       {isLast && (
         <div className="absolute -bottom-2 left-0.5 w-1 h-1 rounded-full bg-white -translate-y-1 "></div>

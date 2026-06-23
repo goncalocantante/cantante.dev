@@ -1,6 +1,6 @@
-import ResumeSection from "./resumeSection";
-import TechStackSection from "./techStackSection";
-import ExperienceSection from "./experienceSection";
+import ResumeSection from "./ResumeSection";
+import TechStackSection from "./TechStackSection";
+import ExperienceSection from "./ExperienceSection";
 
 const Resume = () => {
   return (

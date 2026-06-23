@@ -12,10 +12,12 @@ const ResumeSection = () => {
       </p>
       <Image
         src="/images/wavy-divider.svg"
-        width="160"
-        height="12"
-        alt="Wavy Line Section Divider"
+        width={160}
+        height={12}
+        alt=""
+        aria-hidden="true"
         className="col-start-2 col-span-10 md:col-start-4 md:col-span-8 mt-4"
+        style={{ width: "auto", height: "auto" }}
       />
     </div>
   );

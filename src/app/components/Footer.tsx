@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <footer className="w-full py-16 mt-16 border-t border-highlight/10">
@@ -9,41 +11,43 @@ const Footer = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <a
+            <Link
               href="/cv.pdf"
               download="Goncalo_Cantante_CV.pdf"
-              className="px-6 py-3 rounded-lg bg-highlight text-black font-semibold text-center transition-all hover:bg-highlight/90 hover:scale-[1.02] active:scale-[0.98]"
+              className="px-6 py-3 rounded-lg bg-highlight text-black font-semibold text-center transition-all hover:bg-highlight/90 hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-highlight focus-visible:ring-offset-2 focus-visible:ring-offset-black"
             >
               Download CV (PDF)
-            </a>
-            <a
+            </Link>
+            <Link
               href="mailto:goncalo.cantante.jobs@gmail.com"
-              className="px-6 py-3 rounded-lg border border-highlight/30 text-white font-semibold text-center transition-all hover:bg-highlight/10 hover:border-highlight/50 hover:scale-[1.02] active:scale-[0.98]"
+              className="px-6 py-3 rounded-lg border border-highlight/30 text-white font-semibold text-center transition-all hover:bg-highlight/10 hover:border-highlight/50 hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-highlight focus-visible:ring-offset-2 focus-visible:ring-offset-black"
             >
               Get in Touch
-            </a>
+            </Link>
           </div>
         </div>
 
         <div className="col-start-2 col-span-10 flex justify-between items-center text-sm text-white/40 pt-6 border-t border-white/5">
           <p>© 2026 Gonçalo Cantante</p>
           <div className="flex gap-4">
-            <a
+            <Link
               href="https://www.linkedin.com/in/goncalo-cantante/"
-              className="hover:text-highlight transition-colors"
+              className="hover:text-highlight transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-highlight focus-visible:ring-offset-2 focus-visible:ring-offset-black"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="LinkedIn Profile"
             >
               LinkedIn
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://github.com/goncalocantante"
-              className="hover:text-highlight transition-colors"
+              className="hover:text-highlight transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-highlight focus-visible:ring-offset-2 focus-visible:ring-offset-black"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="GitHub Profile"
             >
               GitHub
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -51,4 +55,4 @@ const Footer = () => {
   );
 };
 
-export default Footer
+export default Footer;

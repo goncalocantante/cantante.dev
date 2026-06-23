@@ -1,6 +1,13 @@
-import TimelineItem from "./timelineItem";
+import TimelineItem from "./TimelineItem";
 
-const timelineItems = [
+interface TimelineItemData {
+  jobTitle: string;
+  companyName: string;
+  dates: string;
+  jobDescription?: string;
+}
+
+const timelineItems: TimelineItemData[] = [
   {
     jobTitle: "Founder & Lead Engineer",
     companyName: "EloClinico (Healthcare SaaS)",
@@ -36,10 +43,10 @@ const ExperienceSection = () => {
       {timelineItems.map((item, id) => (
         <TimelineItem
           key={`job-${id}`}
-          jobTitle={item?.jobTitle}
-          companyName={item?.companyName}
-          dates={item?.dates}
-          jobDescription={item?.jobDescription}
+          jobTitle={item.jobTitle}
+          companyName={item.companyName}
+          dates={item.dates}
+          jobDescription={item.jobDescription}
           isLast={id === timelineItems.length - 1}
         />
       ))}
