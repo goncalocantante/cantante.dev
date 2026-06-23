@@ -11,7 +11,7 @@ const timelineItems: TimelineItemData[] = [
   {
     jobTitle: "Founder & Lead Engineer",
     companyName: "EloClinico (Healthcare SaaS)",
-    dates: "Aug 2025 — Present",
+    dates: "Sep 2025 — Present",
     jobDescription:
       "Architected and built a secure, multi-tenant scheduling and clinic management SaaS. Implemented strict database-level schema isolation in PostgreSQL, Next.js dashboard UI, and integrated Stripe payments via webhook infrastructure to automate subscription billing.",
   },
