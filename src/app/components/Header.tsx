@@ -11,10 +11,9 @@ const Header = () => {
       >
         <Image
           src="/images/signature.svg"
-          width={66}
+          width={69}
           height={37}
           alt="Logo - Handwritten Signature"
-          style={{ width: "auto", height: "auto" }}
         />
       </Link>
       <nav aria-label="Social navigation" className="my-auto">

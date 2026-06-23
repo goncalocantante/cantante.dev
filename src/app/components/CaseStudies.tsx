@@ -54,18 +54,16 @@ const CaseStudies = () => {
             alt="EloClinico SaaS Dashboard Mockup"
             className="w-full h-auto object-cover"
             loading="lazy"
-            style={{ height: "auto" }}
           />
         </div>
 
         <Image
           src="/images/wavy-divider.svg"
-          width={160}
-          height={12}
+          width={162}
+          height={16}
           alt=""
           aria-hidden="true"
           className="mt-6"
-          style={{ width: "auto", height: "auto" }}
         />
       </div>
     </section>

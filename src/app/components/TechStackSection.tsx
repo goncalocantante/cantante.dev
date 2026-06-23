@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const imageStyle = {
-  height: "24px",
+  height: "25px",
 };
 
 const TechStackSection = () => {
@@ -16,7 +16,7 @@ const TechStackSection = () => {
           src="/images/skillsLogos/next.svg"
           alt="Next.js"
           width={120}
-          height={24}
+          height={25}
           style={imageStyle}
           className="hover:scale-116 transition-transform"
         />
@@ -24,7 +24,7 @@ const TechStackSection = () => {
           src="/images/skillsLogos/node.svg"
           alt="Node.js"
           width={85}
-          height={24}
+          height={25}
           style={imageStyle}
           className="hover:scale-116 transition-transform"
         />
@@ -32,7 +32,7 @@ const TechStackSection = () => {
           src="/images/skillsLogos/tailwindcss.svg"
           alt="Tailwind CSS"
           width={191}
-          height={24}
+          height={25}
           style={imageStyle}
           className="hover:scale-116 transition-transform"
         />
@@ -40,7 +40,7 @@ const TechStackSection = () => {
           src="/images/skillsLogos/postgresql.svg"
           alt="PostgreSQL"
           width={128}
-          height={24}
+          height={25}
           style={imageStyle}
           className="hover:scale-116 transition-transform"
         />
@@ -48,7 +48,7 @@ const TechStackSection = () => {
           src="/images/skillsLogos/express.svg"
           alt="Express.js"
           width={41}
-          height={24}
+          height={25}
           style={imageStyle}
           className="hover:scale-116 transition-transform"
         />
@@ -56,15 +56,15 @@ const TechStackSection = () => {
           src="/images/skillsLogos/knex.svg"
           alt="Knex.js"
           width={85}
-          height={24}
+          height={25}
           style={imageStyle}
           className="hover:scale-116 transition-transform"
         />
         <Image
           src="/images/skillsLogos/typescript.svg"
           alt="TypeScript"
-          width={114}
-          height={24}
+          width={108}
+          height={25}
           style={imageStyle}
           className="hover:scale-116 transition-transform"
         />

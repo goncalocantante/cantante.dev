@@ -28,13 +28,12 @@ const Hero = () => {
         </div>
         <Image
           src="/images/wavy-divider.svg"
-          width={160}
-          height={12}
+          width={162}
+          height={16}
           alt=""
           aria-hidden="true"
           className="pb-[56px]"
           priority={true}
-          style={{ width: "auto", height: "auto" }}
         />
         <div className="pb-[48px]">
           <h3 className="pb-[24px] font-bold font-playfair text-xl">Find Me On</h3>
